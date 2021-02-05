@@ -1,5 +1,4 @@
 # wc_command
-<br>
 ## 何をしたか
 wcコマンドの実装<br>
 <br>
@@ -7,6 +6,6 @@ wcコマンドの実装<br>
 Linux(Ubuntu LTS)でもWindows(gcc)でも動作が確認されている<br>
 <br>
 ### 注意点
-※文字数カウントはutf-8のみ想定している<br>
-※ファイル名は一番最後に指定すること<br>
+文字数カウントはutf-8のみ想定している<br>
+ファイル名は一番最後に指定すること<br>
 ex. wc -c test1.txt
