@@ -1,8 +1,10 @@
 # wc_command
 
-wc�R�}���h�̎���
-Linux(Ubuntu LTS)�ł�Windows(gcc)�ł����삪�m�F����Ă���\n
-
-���������J�E���g��utf-8�̂ݑz�肵�Ă���
-���t�@�C�����͈�ԍŌ�Ɏw�肷�邱��
+##何をしたか
+wcコマンドの実装  
+##実行環境
+Linux(Ubuntu LTS)でもWindows(gcc)でも動作が確認されている  
+###注意点
+※文字数カウントはutf-8のみ想定している  
+※ファイル名は一番最後に指定すること  
 ex. wc -c test1.txt
